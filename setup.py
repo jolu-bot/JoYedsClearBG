@@ -5,7 +5,8 @@ DATA_FILES = []
 OPTIONS = {
     'argv_emulation': True,
     'iconfile': 'JoYeds.icns',
-    'includes': ['PIL', 'rembg', 'tkinter'],
+    'resources': ['logo.png'],
+    'includes': ['PIL', 'rembg', 'tkinter', 'tkinterdnd2'],
     'packages': ['onnxruntime', 'numpy'],
     'plist': {
         'CFBundleName': 'JoYed\'S ClearBG',
